@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Header from './Header'
 import Home from './Home'
 import User from './User'
+import LandInspectorLogin from './LandInspectorLogin'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 export default function Index() {
@@ -22,6 +23,7 @@ export default function Index() {
           <Route exact path='/' element={<Home />} />
           <Route path='/welcome' element={<Home />} />
           <Route path="/user" element={<User />} />
+          <Route path="/landinspectorlogin" element={<LandInspectorLogin />} />
         </Routes>
         </Router>
     </div>
