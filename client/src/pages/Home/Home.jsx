@@ -36,4 +36,4 @@ const Home = () => {
     )
 }
 
-export default Welcome;
+export default Home;
